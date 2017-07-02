@@ -5,14 +5,17 @@ body {
 	text-align: center;
 }
 .section1 {
-	background-color: #BFDA00;
+	background-color: #ebe1c5;
 }
 .section2 {
-	background-color: #2EBE21;
+	background-color: #e8bd8e;
 }
 .section3 {
-	background-color: #2C3E50;
+	background-color: #db6c3e;
 }
 .section4 {
-	background-color: #FF9900;
+	background-color: #80b7c2;
+}
+.section5 {
+	background-color: #7689a2;
 }
