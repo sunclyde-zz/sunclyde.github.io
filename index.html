@@ -1,1 +1,60 @@
-Hello Clyde Wang
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title> Read Clyde </title>
+	<meta name="author" content="Clyde Wang" />
+	<meta name="keywords" content="Clyde Wang, Minshu Wang, Sunclyde" />
+	<meta name="description" content="Readme page of Clyde Wang" />
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
+
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+
+	<style type="text/css">
+		body
+		{
+			color: #FFFFFF;
+		}
+		.section1
+		{
+			background-color: #BFDA00;
+		}
+		.section2
+		{
+			background-color: #2EBE21;
+		}
+		.section3
+		{
+			background-color: #2C3E50;
+		}
+		.section4
+		{
+			background-color: #FF9900;
+		}
+	</style>
+
+	<script type="text/javascript">
+		$(function() {
+			$("#ido").fullpage();
+		});
+	</script>
+</head>
+
+<body>
+	<div id="ido">
+		<div class="section section1">
+			<h1>每一个section是一屏，这是第一屏</h3>
+		</div>
+		<div class="section section2">
+			<h1>每一个section是一屏，这是第二屏</h3>
+		</div>
+		<div class="section section3 active">
+			<h1>每一个section是一屏，这是第三屏</h3>
+		</div>
+		<div class="section section4">
+			<h1>每一个section是一屏，这是第四屏</h3>
+		</div>
+	</div>
+</body>
+</html>
